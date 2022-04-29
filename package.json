@@ -1,0 +1,33 @@
+{
+  "name": "directopago",
+  "version": "0.0.1",
+  "description": "About Unofficial package to connect directopago.com rest api checkout.",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShoopiApp/directopago.git"
+  },
+  "keywords": [
+    "directopago"
+  ],
+  "author": "AppShoopi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ShoopiApp/directopago/issues"
+  },
+  "homepage": "https://github.com/ShoopiApp/directopago#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "class-transformer": "^0.5.1",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.16",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.6.4"
+  }
+}
